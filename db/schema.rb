@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_22_215403) do
+ActiveRecord::Schema.define(version: 2018_09_23_042511) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2018_09_22_215403) do
     t.string "avatar", default: "https://images.pexels.com/photos/419635/notebook-empty-design-paper-419635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "password_confirmation"
   end
 
 end
