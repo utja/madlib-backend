@@ -8,6 +8,7 @@
 
 template = Template.create(
   {
+    title: 'The strange night',
     story: 'From what I remember, it was a dark and *$_word_one_$* night.
     When I looked up at the sky, *$_word_two_$* began to *$_word_three_$* so *$_word_four_$* I had no
     *$_word_five_$* to react. I tried to *$_word_six_$* for my *$_word_seven_$* from my bag
