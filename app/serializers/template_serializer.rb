@@ -1,3 +1,3 @@
 class TemplateSerializer < ActiveModel::Serializer
-  attributes :id, :story, :words
+  attributes :id, :title, :words
 end
