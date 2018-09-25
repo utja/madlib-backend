@@ -10,10 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_24_022637) do
+ActiveRecord::Schema.define(version: 2018_09_24_181700) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "stories", force: :cascade do |t|
+    t.text "story"
+    t.string "title"
+    t.bigint "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_stories_on_user_id"
+  end
 
   create_table "templates", force: :cascade do |t|
     t.text "story"
@@ -34,4 +43,5 @@ ActiveRecord::Schema.define(version: 2018_09_24_022637) do
     t.string "password_confirmation"
   end
 
+  add_foreign_key "stories", "users"
 end
