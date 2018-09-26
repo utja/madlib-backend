@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  story: one
+  user: one
+  data_url: MyText
+  title: MyString
+
+two:
+  story: two
+  user: two
+  data_url: MyText
+  title: MyString
