@@ -10,10 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_24_181700) do
+ActiveRecord::Schema.define(version: 2018_09_26_005743) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "drawings", force: :cascade do |t|
+    t.bigint "story_id"
+    t.bigint "user_id"
+    t.text "data_url"
+    t.string "title"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["story_id"], name: "index_drawings_on_story_id"
+    t.index ["user_id"], name: "index_drawings_on_user_id"
+  end
 
   create_table "stories", force: :cascade do |t|
     t.text "story"
@@ -43,5 +54,7 @@ ActiveRecord::Schema.define(version: 2018_09_24_181700) do
     t.string "password_confirmation"
   end
 
+  add_foreign_key "drawings", "stories"
+  add_foreign_key "drawings", "users"
   add_foreign_key "stories", "users"
 end
