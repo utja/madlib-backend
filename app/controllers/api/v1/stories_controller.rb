@@ -5,6 +5,11 @@ class Api::V1::StoriesController < ApplicationController
     render json: stories, status: :accepted
   end
 
+  def show
+    story = Story.find_by(id: params["id"])
+    render json: story, status: :accepted
+  end
+
   def create
     template = Template.find_by(id:params["story"]["template_id"])
     story_words = params["story"]["words"].each { |word| word.each do |k,v| 
