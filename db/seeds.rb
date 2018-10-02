@@ -273,5 +273,155 @@ template = Template.create([
         examples: 'punk, clown'
       }.to_json,
     ]
+  },
+  {
+    title: 'Fifty Shades of Grey',
+    story: "Suddenly he grabs me, tipping me across his *$_word_one_$*. With one *$_word_two_$* movement, he angles his *$_word_three_$* so my *$_word_four_$* is resting on the *$_word_five_$* beside him. He throws his right *$_word_six_$* over both mine and *$_word_seven_$* his left *$_word_eight_$* on the small of my *$_word_nine_$*, holding me down so I cannot *$_word_ten_$*...He places his *$_word_eleven_$* on my *$_word_twleve_$* *$_word_thirteen_$*, softly *$_word_fourteen_$* me, stroking around and around with his *$_word_fifteen_$* palm. And then his *$_word_sixteen_$* is no longer there... and he *$_word_seventeen_$* me-*$_word_eighteen_$*.",
+    words: [
+      {
+        id: 1,
+        key: 'word_one',
+        value: '',
+        type: 'noun',
+        helper_text: "body part",
+        examples: 'lap, arms'
+      }.to_json,
+      {
+        id: 2,
+        key: 'word_two',
+        value: '',
+        type: 'adjective',
+        helper_text: '',
+        examples: 'smooth, glorious'
+      }.to_json,
+      {
+        id: 3,
+        key: 'word_three',
+        value: '',
+        type: 'noun',
+        helper_text: 'singular',
+        examples: 'body, chair'
+      }.to_json,
+      {
+        id: 4,
+        key: 'word_four',
+        value: '',
+        type: 'noun',
+        helper_text: 'body part singular',
+        examples: 'torso, leg'
+      }.to_json,
+      {
+        id: 5,
+        key: 'word_five',
+        value: '',
+        type: 'noun',
+        helper_text: 'singular',
+        examples: 'bed, pillow'
+      }.to_json,
+      {
+        id: 6,
+        key: 'word_six',
+        value: '',
+        type: 'noun',
+        helper_text: 'body part singular',
+        examples: 'leg, arm'
+      }.to_json,
+      {
+        id: 7,
+        key: 'word_seven',
+        value: '',
+        type: 'verb',
+        helper_text: "ending in s",
+        examples: 'plants, slides'
+      }.to_json,
+      {
+        id: 8,
+        key: 'word_eight',
+        value: '',
+        type: 'noun',
+        helper_text: "body part singular",
+        examples: 'forearm, ear'
+      }.to_json,
+      {
+        id: 9,
+        key: 'word_nine',
+        value: '',
+        type: 'noun',
+        helper_text: "body part singular",
+        examples: 'back, thigh'
+      }.to_json,
+      {
+        id: 10,
+        key: 'word_ten',
+        value: '',
+        type: 'verb',
+        helper_text: "simple present, no 's' at end",
+        examples: 'move, walk'
+      }.to_json,
+      {
+        id: 11,
+        key: 'word_eleven',
+        value: '',
+        type: 'noun',
+        helper_text: "body part singular",
+        examples: 'hand, finger'
+      }.to_json,
+      {
+        id: 12,
+        key: 'word_twelve',
+        value: '',
+        type: 'adjective',
+        helper_text: "",
+        examples: 'naked, silky'
+      }.to_json,
+      {
+        id: 13,
+        key: 'word_thirteen',
+        value: '',
+        type: 'noun',
+        helper_text: "body part singular",
+        examples: 'behind, head'
+      }.to_json,
+      {
+        id: 14,
+        key: 'word_fourteen',
+        value: '',
+        type: 'verb',
+        helper_text: "ending in -ing",
+        examples: 'fondling, juggling'
+      }.to_json,
+      {
+        id: 15,
+        key: 'word_fifteen',
+        value: '',
+        type: 'adjective',
+        helper_text: "",
+        examples: 'flat, sweaty'
+      }.to_json,
+      {
+        id: 16,
+        key: 'word_sixteen',
+        value: '',
+        type: 'noun',
+        helper_text: "body part singular",
+        examples: 'hand, toe'
+      }.to_json,
+      {
+        id: 17,
+        key: 'word_seventeen',
+        value: '',
+        type: 'verb',
+        helper_text: "ending in s",
+        examples: 'hits, throws'
+      }.to_json,
+      {
+        id: 18,
+        key: 'word_eighteen',
+        value: '',
+        type: 'adjective',
+        helper_text: "level of intensity",
+        examples: 'hard, soft'
+      }.to_json,
+    ]
   }
 ])
