@@ -276,7 +276,7 @@ template = Template.create([
   },
   {
     title: 'Fifty Shades of Grey',
-    story: "Suddenly he grabs me, tipping me across his *$_word_one_$*. With one *$_word_two_$* movement, he angles his *$_word_three_$* so my *$_word_four_$* is resting on the *$_word_five_$* beside him. He throws his right *$_word_six_$* over both mine and *$_word_seven_$* his left *$_word_eight_$* on the small of my *$_word_nine_$*, holding me down so I cannot *$_word_ten_$*...He places his *$_word_eleven_$* on my *$_word_twleve_$* *$_word_thirteen_$*, softly *$_word_fourteen_$* me, stroking around and around with his *$_word_fifteen_$* palm. And then his *$_word_sixteen_$* is no longer there... and he *$_word_seventeen_$* me-*$_word_eighteen_$*.",
+    story: "Suddenly he grabs me, tipping me across his *$_word_one_$*. With one *$_word_two_$* movement, he angles his *$_word_three_$* so my *$_word_four_$* is resting on the *$_word_five_$* beside him. He throws his right *$_word_six_$* over both mine and *$_word_seven_$* his left *$_word_eight_$* on the small of my *$_word_nine_$*, holding me down so I cannot *$_word_ten_$*...He places his *$_word_eleven_$* on my *$_word_twelve_$* *$_word_thirteen_$*, softly *$_word_fourteen_$* me, stroking around and around with his *$_word_fifteen_$* palm. And then his *$_word_sixteen_$* is no longer there... and he *$_word_seventeen_$* me-*$_word_eighteen_$*.",
     words: [
       {
         id: 1,
