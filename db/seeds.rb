@@ -9,7 +9,11 @@
 template = Template.create([
   {
     title: 'The strange night',
-    story: 'From what I remember, it was a dark and *$_word_one_$* night. When I looked up at the sky, *$_word_two_$* began to *$_word_three_$* so *$_word_four_$* I had no *$_word_five_$* to react. I tried to *$_word_six_$* for my *$_word_seven_$* from my bag but a *$_word_eight_$* *$_word_nine_$* knocked it out of my hand. I had no choice but to *$_word_ten_$* as fast as I could and try to avoid the *$_word_eleven_$*.',
+    story: 'From what I remember, it was a dark and *$_word_one_$* night. 
+    When I looked up at the sky, *$_word_two_$* began to *$_word_three_$* so *$_word_four_$* 
+    I had no *$_word_five_$* to react. I tried to *$_word_six_$* for my *$_word_seven_$* 
+    from my bag but a *$_word_eight_$* *$_word_nine_$* knocked it out of my hand. 
+    I had no choice but to *$_word_ten_$* as fast as I could and try to avoid the *$_word_eleven_$*.',
     words: [
       {
         id: 1,
@@ -17,7 +21,7 @@ template = Template.create([
         value: '',
         type: 'adjective',
         helper_text: '',
-        examples: 'cold, dark'
+        examples: 'stormy, cold'
       }.to_json,
       {
         id: 2,
@@ -33,7 +37,7 @@ template = Template.create([
         value: '',
         type: 'verb',
         helper_text: "simple present, no 's' at end",
-        examples: 'eat, sleep'
+        examples: 'fall, sleep'
       }.to_json,
       {
         id: 4,
@@ -57,7 +61,7 @@ template = Template.create([
         key: 'word_six',
         type: 'verb',
         helper_text: "simple present, no 's' at end",
-        examples: 'grab, slap'
+        examples: 'reach, run'
       }.to_json,
       {
         id: 7,
@@ -65,7 +69,7 @@ template = Template.create([
         key: 'word_seven',
         type: 'noun',
         helper_text: "",
-        examples: 'sword, phone'
+        examples: 'umbrella, sword'
       }.to_json,
       {
         id: 8,
@@ -97,7 +101,7 @@ template = Template.create([
         key: 'word_eleven',
         type: 'noun',
         helper_text: "",
-        examples: 'fire, rock'
+        examples: 'weather, rock'
       }.to_json,
     ]
   },
