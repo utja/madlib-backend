@@ -5,5 +5,5 @@ class User < ApplicationRecord
   # validates :password, presence: true, length: { minimum: 8 }, on: :update, if: 
 
   has_many :stories
-  has_many :drawings, through: :stories
+  has_many :drawings
 end
